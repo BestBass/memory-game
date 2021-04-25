@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game Workshop</title>
+    <script src="app.js"></script>
+    <style>
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 800px;
+        background-color: white;
+    }
+    .title{
+        background-color: lightsteelblue;
+    }
+    body{
+        background-color: lightseagreen;
+    }
+    h1{
+        color: darkorange;
+    }
+    h4{
+        color: orangered;
+    }
+    </style>
+</head>
+<body>
+    <center><div class="title">
+        <h1>Memory Game</h1>
+        <h4>Score: <span id="gameScore">0</span></h4>
+        <h4>Message <span id="gameConsole">Game start!</span></h4>
+    </div></center>
+    <center><div id="gameBoard"></div></center>
+</body>
+</html>
